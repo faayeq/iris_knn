@@ -1,1 +1,1 @@
-A simple implementation of K Nearest Neighbours Classification on the Iris dataset. 
+A simple implementation of K Nearest Neighbours Classification task on the Iris dataset. 
