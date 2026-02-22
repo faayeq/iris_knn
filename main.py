@@ -1,5 +1,6 @@
 from sklearn.datasets import load_iris
 import random
+import matplotlib.pyplot as plot
 
 dataset = load_iris()
 samples = [10,25,49,50,51,100,101]
@@ -84,10 +85,19 @@ def train_test_split():
         print(f"class {i} ({dataset.target_names[i]}): {count} samples")
 
 
+def predict(X_test, X_train, y_test, k):
+    distances=[]
+
+    for i in :
+
+
+
+
 def main():
     shuffle_features_and_labels()
     print_details()
     train_test_split()
+    predict(X_test, X_train, y_test, 3)
 
 
 if __name__ == "__main__":
